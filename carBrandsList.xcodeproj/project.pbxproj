@@ -11,8 +11,8 @@
 		E6030EAA1D7EE6A4000F66FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6030EA91D7EE6A4000F66FA /* AppDelegate.m */; };
 		E6030EAD1D7EE6A4000F66FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6030EAC1D7EE6A4000F66FA /* ViewController.m */; };
 		E6030EB01D7EE6A5000F66FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6030EAE1D7EE6A5000F66FA /* Main.storyboard */; };
-		E6030EB21D7EE6A5000F66FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6030EB11D7EE6A5000F66FA /* Assets.xcassets */; };
 		E6030EB51D7EE6A5000F66FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6030EB31D7EE6A5000F66FA /* LaunchScreen.storyboard */; };
+		E6030EBD1D7EE72C000F66FA /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6030EBC1D7EE72C000F66FA /* cars_total.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		E6030EAB1D7EE6A4000F66FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E6030EAC1D7EE6A4000F66FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6030EAF1D7EE6A5000F66FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E6030EB11D7EE6A5000F66FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6030EB41D7EE6A5000F66FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6030EB61D7EE6A5000F66FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6030EBC1D7EE72C000F66FA /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,6 @@
 				E6030EAB1D7EE6A4000F66FA /* ViewController.h */,
 				E6030EAC1D7EE6A4000F66FA /* ViewController.m */,
 				E6030EAE1D7EE6A5000F66FA /* Main.storyboard */,
-				E6030EB11D7EE6A5000F66FA /* Assets.xcassets */,
 				E6030EB31D7EE6A5000F66FA /* LaunchScreen.storyboard */,
 				E6030EB61D7EE6A5000F66FA /* Info.plist */,
 				E6030EA51D7EE6A4000F66FA /* Supporting Files */,
@@ -75,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E6030EA61D7EE6A4000F66FA /* main.m */,
+				E6030EBC1D7EE72C000F66FA /* cars_total.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6030EB51D7EE6A5000F66FA /* LaunchScreen.storyboard in Resources */,
-				E6030EB21D7EE6A5000F66FA /* Assets.xcassets in Resources */,
 				E6030EB01D7EE6A5000F66FA /* Main.storyboard in Resources */,
+				E6030EBD1D7EE72C000F66FA /* cars_total.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
