@@ -13,6 +13,9 @@
 		E6030EB01D7EE6A5000F66FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6030EAE1D7EE6A5000F66FA /* Main.storyboard */; };
 		E6030EB51D7EE6A5000F66FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6030EB31D7EE6A5000F66FA /* LaunchScreen.storyboard */; };
 		E6030EBD1D7EE72C000F66FA /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6030EBC1D7EE72C000F66FA /* cars_total.plist */; };
+		E6030EC01D7EEAF1000F66FA /* CHMCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E6030EBF1D7EEAF1000F66FA /* CHMCarGroup.m */; };
+		E6030EC31D7EEB5C000F66FA /* CHMCars.m in Sources */ = {isa = PBXBuildFile; fileRef = E6030EC21D7EEB5C000F66FA /* CHMCars.m */; };
+		E6030EC91D7EFB99000F66FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6030EC81D7EFB99000F66FA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		E6030EB41D7EE6A5000F66FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6030EB61D7EE6A5000F66FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6030EBC1D7EE72C000F66FA /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		E6030EBE1D7EEAF1000F66FA /* CHMCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMCarGroup.h; sourceTree = "<group>"; };
+		E6030EBF1D7EEAF1000F66FA /* CHMCarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMCarGroup.m; sourceTree = "<group>"; };
+		E6030EC11D7EEB5C000F66FA /* CHMCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMCars.h; sourceTree = "<group>"; };
+		E6030EC21D7EEB5C000F66FA /* CHMCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMCars.m; sourceTree = "<group>"; };
+		E6030EC81D7EFB99000F66FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +66,11 @@
 		E6030EA41D7EE6A4000F66FA /* carBrandsList */ = {
 			isa = PBXGroup;
 			children = (
-				E6030EA81D7EE6A4000F66FA /* AppDelegate.h */,
-				E6030EA91D7EE6A4000F66FA /* AppDelegate.m */,
+				E6030EC51D7EEE29000F66FA /* Others */,
+				E6030EC41D7EEE0E000F66FA /* Modles */,
 				E6030EAB1D7EE6A4000F66FA /* ViewController.h */,
 				E6030EAC1D7EE6A4000F66FA /* ViewController.m */,
-				E6030EAE1D7EE6A5000F66FA /* Main.storyboard */,
-				E6030EB31D7EE6A5000F66FA /* LaunchScreen.storyboard */,
+				E6030ECA1D7EFBE0000F66FA /* View */,
 				E6030EB61D7EE6A5000F66FA /* Info.plist */,
 				E6030EA51D7EE6A4000F66FA /* Supporting Files */,
 			);
@@ -77,6 +84,36 @@
 				E6030EBC1D7EE72C000F66FA /* cars_total.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6030EC41D7EEE0E000F66FA /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				E6030EBE1D7EEAF1000F66FA /* CHMCarGroup.h */,
+				E6030EBF1D7EEAF1000F66FA /* CHMCarGroup.m */,
+				E6030EC11D7EEB5C000F66FA /* CHMCars.h */,
+				E6030EC21D7EEB5C000F66FA /* CHMCars.m */,
+			);
+			name = Modles;
+			sourceTree = "<group>";
+		};
+		E6030EC51D7EEE29000F66FA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E6030EA81D7EE6A4000F66FA /* AppDelegate.h */,
+				E6030EA91D7EE6A4000F66FA /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		E6030ECA1D7EFBE0000F66FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6030EC81D7EFB99000F66FA /* Assets.xcassets */,
+				E6030EAE1D7EE6A5000F66FA /* Main.storyboard */,
+				E6030EB31D7EE6A5000F66FA /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +142,7 @@
 		E6030E9A1D7EE6A4000F66FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CHM;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = " chenhanmao";
 				TargetAttributes = {
@@ -138,6 +176,7 @@
 			files = (
 				E6030EB51D7EE6A5000F66FA /* LaunchScreen.storyboard in Resources */,
 				E6030EB01D7EE6A5000F66FA /* Main.storyboard in Resources */,
+				E6030EC91D7EFB99000F66FA /* Assets.xcassets in Resources */,
 				E6030EBD1D7EE72C000F66FA /* cars_total.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6030EAD1D7EE6A4000F66FA /* ViewController.m in Sources */,
+				E6030EC31D7EEB5C000F66FA /* CHMCars.m in Sources */,
 				E6030EAA1D7EE6A4000F66FA /* AppDelegate.m in Sources */,
 				E6030EA71D7EE6A4000F66FA /* main.m in Sources */,
+				E6030EC01D7EEAF1000F66FA /* CHMCarGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
